@@ -1,0 +1,6 @@
+torch==1.3.1
+torchvision==0.4.2
+opencv-python==3.4.2.17
+tqdm==4.62.3
+pysodmetrics==1.3.0
+imageio==2.9.0
