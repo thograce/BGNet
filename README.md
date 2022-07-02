@@ -59,7 +59,7 @@ Just run `eval.py` to evaluate the trained model.
 
 > pre-computed maps of BGNet can be found in [download link (Google Drive)](https://drive.google.com/file/d/10f9-144HhBq6SQc9rwekIn7ICOxvSVgG/view?usp=sharing).
 
-> pre-comuputed maps of other comparison methods can be found in [download link (Baidu Pan)](https://pan.baidu.com/s/1dLMqa4tix1gdBN1uWrCPbQ) with Code: yxy9.
+> pre-computed maps of other comparison methods can be found in [download link (Baidu Pan)](https://pan.baidu.com/s/1dLMqa4tix1gdBN1uWrCPbQ) with Code: yxy9.
 
 ## 3. Citation
 
