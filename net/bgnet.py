@@ -61,7 +61,6 @@ class EFM(nn.Module):
         super(EFM, self).__init__()
         t = int(abs((log(channel, 2) + 1) / 2))
         k = t if t % 2 else t + 1
-        # self.conv2d_1 = ConvBNR(channel, channel, 3)
         self.conv2d = ConvBNR(channel, channel, 3)
         self.avg_pool = nn.AdaptiveAvgPool2d(1)
         self.conv1d = nn.Conv1d(1, 1, kernel_size=k, padding=(k - 1) // 2, bias=False)
@@ -70,7 +69,6 @@ class EFM(nn.Module):
     def forward(self, c, att):
         if c.size() != att.size():
             att = F.interpolate(att, c.size()[2:], mode='bilinear', align_corners=False)
-        # c = self.conv2d_1(c)
         x = c * att + c
         x = self.conv2d(x)
         wei = self.avg_pool(x)
