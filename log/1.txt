@@ -1,0 +1,1 @@
+The contents printed on the screen during the training will be saved to this folder.
