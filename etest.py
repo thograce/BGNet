@@ -4,15 +4,15 @@ import torch.nn.functional as F
 import numpy as np
 import os, argparse
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
-from net.att import Net
+from net.bgnet import Net
 from utils.tdataloader import test_dataset
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--testsize', type=int, default=416, help='testing size')
-parser.add_argument('--pth_path', type=str, default='./checkpoints/best/BGNet-24.pth')
+parser.add_argument('--pth_path', type=str, default='./checkpoints/best/BGNet.pth')
 
 for _data_name in ['CAMO','CHAMELEON','COD10K','NC4K']:
-    data_path = './datacod/TestDataset/{}/'.format(_data_name)
+    data_path = './data/TestDataset/{}/'.format(_data_name)
     save_path = './results/BGNet/{}/'.format(_data_name)
     opt = parser.parse_args()
     model = Net()

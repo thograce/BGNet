@@ -4,7 +4,7 @@ import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 import argparse
 from datetime import datetime
-from net.att import Net
+from net.bgnet import Net
 from utils.tdataloader import get_loader
 from utils.utils import clip_gradient, AvgMeter, poly_lr
 import torch.nn.functional as F
@@ -105,7 +105,7 @@ if __name__ == '__main__':
     parser.add_argument('--train_path', type=str,
                         default='./data/TrainDataset', help='path to train dataset')
     parser.add_argument('--train_save', type=str,
-                        default='new88')
+                        default='BGNet')
     opt = parser.parse_args()
 
     # ---- build models ----
