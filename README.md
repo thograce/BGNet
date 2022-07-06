@@ -9,7 +9,7 @@
 
 ## 1. Preface
 
-- This repository provides code for "_**Boundary-Guided Camouflaged Object Detection**_" IJCAI-2022. <!--[![Arxiv Page](https://img.shields.io/badge/Arxiv-2105.12555-red?style=flat-square)](https://arxiv.org/abs/2105.12555)-->
+- This repository provides code for "_**Boundary-Guided Camouflaged Object Detection**_" IJCAI-2022. [![Arxiv Page](https://img.shields.io/badge/Arxiv-2207.00794-red?style=flat-square)](https://arxiv.org/abs/2207.00794)
 
 ## 2. Proposed Baseline
 
