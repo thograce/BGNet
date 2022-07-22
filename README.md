@@ -69,7 +69,6 @@ Please cite our paper if you find the work useful:
 	title={Boundary-Guided Camouflaged Object Detection},
 	author={Sun, Yujia and Wang, Shuo and Chen, Chenglizhao and Xiang, Tian-Zhu},
 	booktitle={IJCAI},
+	pages = "1335--1341",
 	year={2022}
 	}
-
-**[⬆ back to top](#0-preface)**
