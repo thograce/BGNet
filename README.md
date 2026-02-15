@@ -72,3 +72,7 @@ Please cite our paper if you find the work useful:
 	pages = "1335--1341",
 	year={2022}
 	}
+
+## 4. License
+
+The source code is free for research and education use only. Any commercial usage should get formal permission first.
